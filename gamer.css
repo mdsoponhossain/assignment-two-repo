@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital,wght@0,700;0,800;1,400&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+  font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* header section styles */
+/* navbar styles */
+.header-navbar{
+  border:2px solid black;padding:5px 50px 5px;
+  display:flex;justify-content: space-between;align-items: center;
+}
+.list-items{
+  display:flex;gap:20px;list-style: none;
+}
+.list-items a{
+  text-decoration: none;
+}
+.nav-title{
+  display:flex;gap:20px;align-items: center;
+}
+#follow{
+  width: 262px;
+height: 56px;
+background: rgba(11, 2, 35, 0.10);
+padding:18px 24px 18px;
+}
