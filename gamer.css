@@ -1,28 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital,wght@0,700;0,800;1,400&family=Work+Sans:wght@400;500;600;700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:ital,wght@0,700;0,800;1,400&family=Work+Sans:wght@400;500;600;700&display=swap');
-*{
+* {
   font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
+
 /* header section styles */
 /* navbar styles */
-.header-navbar{
-  border:2px solid black;padding:5px 50px 5px;
-  display:flex;justify-content: space-between;align-items: center;
+.header-navbar {
+  border: 2px solid black;
+  padding: 5px 50px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
 }
-.list-items{
-  display:flex;gap:20px;list-style: none;
+
+.list-items {
+  display: flex;
+  gap: 20px;
+  list-style: none;
 }
-.list-items a{
+
+.list-items a {
   text-decoration: none;
+  color: #3C354F;
+  font-size: 18px;
+  font-weight: 500;
 }
-.nav-title{
-  display:flex;gap:20px;align-items: center;
+
+.nav-title {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
-#follow{
+
+#follow {
   width: 262px;
-height: 56px;
-background: rgba(11, 2, 35, 0.10);
-padding:18px 24px 18px;
+  height: 56px;
+  background: rgba(11, 2, 35, 0.10);
+  padding: 18px 24px 18px;
+  border-radius: 8px;
+}
+
+#gamer-icon {
+  color: red;
+}
+
+.youtube {
+  width: 50%
+}
+
+/* navbar styles is finished */
+/* banner-section is started here */
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 100px 10px;
+}
+
+.banner-image {
+  width: 50%;
+  border: 2px solid blue;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.banner-content {
+  width: 50%;
+  border: 2px solid yellow;
+  padding: 10px;
+}
+
+.banner-title {
+  color: #0B0223;
+  
+  font-size: 48px;
+  font-weight: 600;
+
+}
+
+.banner-description {
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.banner-list {
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;list-style: none;
+}
+
+.btn-group {margin-top: 30px;
+  display: flex;
+  gap: 30px;align-items: center;text-align: center;
+}
+
+.btn-1 {
+  padding: 21px 40px;
+  gap: 10px;
+  border-radius: 48px;
+  background-color: red;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-2 {
+  padding: 21px 40px;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4EC5F7;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width:576px) {
+  .header-navbar {
+    flex-direction: column;
+    padding: 5px 10px 5px;
+    width: 98%;
+    margin: 0px;
+  }
+
+  .list-items {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  /* navbar is finished */
+  .banner-section {
+    flex-direction: column-reverse;
+    margin: 10px 20px 10px;
+    align-items: center;
+  }
+
+  .banner-content {
+    width: 100% ;margin-left: 15px;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+
 }
