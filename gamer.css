@@ -78,7 +78,7 @@
 
 .banner-title {
   color: #0B0223;
-  
+
   font-size: 48px;
   font-weight: 600;
 
@@ -97,12 +97,16 @@
 .banner-list {
   color: #534C64;
   font-size: 20px;
-  font-weight: 500;list-style: none;
+  font-weight: 500;
+  list-style: none;
 }
 
-.btn-group {margin-top: 30px;
+.btn-group {
+  margin-top: 30px;
   display: flex;
-  gap: 30px;align-items: center;text-align: center;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
 }
 
 .btn-1 {
@@ -124,6 +128,88 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+/* <!-- banner section is finished here -->
+        <!-- section two is started here --> */
+
+.main-section {
+  display: flex;
+  border: 2px solid green;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 100px 10px;
+
+}
+
+.main-image {
+  border: 2px solid yellow;
+  width: 50%;
+}
+
+.main-content {
+  border: 2px solid blue;
+  width: 50%;
+  padding: 20px;
+}
+
+.main-image img {
+  width: 100%;
+}
+
+.main-title {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#purpose, .main-description {
+  color: #534C64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+ 
+}
+
+.main-btn {
+  border: none;
+  position: relative;
+  left: 600px;
+  padding: 21px 40px;
+  gap: 10px;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.last-text {
+  text-align: right;
+}
+
+.more-text {
+  color: #534C64;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
   .header-navbar {
@@ -147,12 +233,45 @@
   }
 
   .banner-content {
-    width: 100% ;margin-left: 15px;
+    width: 100%;
+    margin-left: 15px;
   }
 
   .banner-image {
     width: 100%;
   }
+
+  /* <!-- banner section is finished here -->
+        <!-- section two is started here --> */
+  .main-section {
+    flex-direction: column;
+    margin: 10px 10px 10px;
+
+  }
+
+  .main-image {
+    width: 100%;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 10px;
+    text-align:center;
+  }
+  .main-btn {position: static; padding: 15px 20px;
+
+  }
+  .last-text, .main-description{
+    text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  }
+  .main-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  /* <!-- section two is finished  here --> */
 
 
 }
