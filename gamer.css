@@ -198,6 +198,9 @@
   font-size: 32px;
   font-weight: 700;
 }
+.image-container{
+  margin-left: 1000px;
+}
 
 /* <!-- section two is finished  here --> */
 /* <!-- section three is started here --> */
@@ -426,5 +429,40 @@ line-height: 60px;
     top: -110px;left: -5px;
 
   }
+
+}
+.footer{background: #0B0223;
+  border:3px solid blue;margin-top: 100px;text-align: center;
+ 
+}
+{
+
+}
+.footer-list{
+  color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+ display:flex;list-style: none;gap:80px;padding-left: 600px;
+}
+.terms{
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+list-style: none;display:flex;gap:50px;padding-left: 650px;
+}
+.footer-title{
+  list-style: none;display:flex;gap:50px;padding-left: 850px;
+}
+.footer-description{
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+
+}
+.footer-title, #amer{
+  color:#FFF;
 
 }
