@@ -9,7 +9,7 @@
 /* header section styles */
 /* navbar styles */
 .header-navbar {
-  border: 2px solid black;
+  
   padding: 5px 50px 5px;
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,7 @@
 
 .banner-image {
   width: 50%;
-  border: 2px solid blue;
+  
 }
 
 .banner-image img {
@@ -72,7 +72,7 @@
 
 .banner-content {
   width: 50%;
-  border: 2px solid yellow;
+  
   padding: 10px;
 }
 
@@ -134,7 +134,7 @@
 
 .main-section {
   display: flex;
-  border: 2px solid green;
+
   justify-content: space-between;
   align-items: center;
   margin: 10px 100px 10px;
@@ -143,12 +143,12 @@
 }
 
 .main-image {
-  border: 2px solid yellow;
+  
   width: 50%;
 }
 
 .main-content {
-  border: 2px solid blue;
+ 
   width: 50%;
   padding: 20px;
 }
@@ -203,9 +203,7 @@
 /* <!-- section two is finished  here --> */
 /* <!-- section three is started here --> */
 
-.main-three {
-  border: 2px solid black;
-}
+
 
 .online-games-title {
   color: #0B0223;
@@ -237,7 +235,7 @@
   display: flex;
   gap: 25px;
   align-items: center;
-  border: 2px solid red;
+  
   width: 100%;
   margin-left: 200px;
   background: #FFF;
@@ -247,20 +245,20 @@
 /* <!-- section four is started here --> */
 .main-four-content {
   display: flex;
-  border: 3px solid yellow;
+ 
   align-items: center;
   height: 900px;
 }
 
 .main-four-text {
-  border: 2px solid red;
+  
   width: 50%;
   padding-left: 190px;
   margin-bottom: 100px;
 }
 
 .main-four-image {
-  border: 2px solid brown;
+ 
   width: 50%;
   height: 800px;
 }
@@ -307,7 +305,7 @@
 /* hover section is started here */
 .mouse-hover {
   height: 300px;
-  border: 3px solid black;
+ 
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -362,6 +360,7 @@
     padding: 5px 10px 5px;
     width: 98%;
     margin: 0px;
+    overflow-x: hidden;
   }
 
   .list-items {
@@ -373,13 +372,13 @@
   /* navbar is finished */
   .banner-section {
     flex-direction: column-reverse;
-    margin: 10px 20px 10px;
-    align-items: center;
+    margin: 5px 5px 5px;
+    
   }
 
   .banner-content {
     width: 100%;
-    margin-left: 15px;
+    margin: 5px;
   }
 
   .banner-image {
